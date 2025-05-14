@@ -1,0 +1,24 @@
+# Get user info
+GET https://api.github.com/users/octocat
+
+###
+
+# List repos
+
+### List Octocat's Repositories
+GET https://api.github.com/users/octocat/repos
+
+###
+
+# Get a single repo details
+
+### Get a Specific Repository
+GET https://api.github.com/repos/octocat/Hello-World
+Accept: application/vnd.github.v3+json
+
+###
+
+GET https://api.github.com/user/repos
+Authorization: Bearer ghp_My_tokens-here
+
+###
